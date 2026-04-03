@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Python Cache & Tests
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*$py.class
+
+# Data & Logs (Krusial untuk RAG/Data Pipeline)
+data/
+logs/
+*.log
+
+# Environments
+venv/
+.venv/
+env/
+
+# OS Trash
+Thumbs.db
+desktop.ini

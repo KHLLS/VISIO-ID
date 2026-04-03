@@ -1,0 +1,40 @@
+# VISIO.ID — Dependencies
+# Install: pip install -r requirements.txt
+
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# Scraping
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.3.0
+
+# Text processing
+tiktoken==0.8.0
+
+# Embedding
+sentence-transformers==3.3.1
+torch==2.5.1
+
+# Database
+supabase==2.11.0
+
+# Environment
+python-dotenv==1.0.1
+pydantic==2.10.4
+
+# Rate limiting
+slowapi==0.1.9
+
+# BM25 search
+rank-bm25==0.2.2
+
+# LLM (Gemini)
+google-genai>=1.0.0
+
+# Numerical
+numpy>=1.26.0
+
+# Utilities
+tqdm==4.67.1
